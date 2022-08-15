@@ -1,0 +1,3 @@
+Total contig lengh :2128
+50 % total contig lengh::1064.0
+N50 = 250

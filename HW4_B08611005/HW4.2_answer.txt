@@ -1,0 +1,13 @@
+Quantification is based on mapping the reads to the genomes using bbmap. Do you think the mapping rate is good? what could be done to improve it?
+A: 根據圖片顯示，mapping rate 的分佈在40~80%之間，我認為這樣的比率還需要改進，因為至少要在80%的mapping rate 比較有參考價值。
+若要提升mapping rate 可以在建構index的時候更改k值。或是利用其他工具，如：STAR or HISAT2 ，比較他們的mapping rate 來取得確切的feature 
+
+Q: We use the median coverage over the genomes to calculate the relative abundance. What is the most abundant species in these metagenomes?
+A: Akkermansia muciniphila
+
+Q: What are conserved functions among the genomes? 
+A: The abundance is calculated as the sum of the relative abundance of all bacteria containing a function.
+Q: Do you see trends by phylum? 
+A: yes 
+Q: Can you distinguish genomes fromt he Firmicutes_A and Firmicutes phyla?
+A: yes 
